@@ -13,7 +13,7 @@ body {
 /* Style for banner */
 .banner {
   background: url(/images/desktop_banner.jpg);
-  background-size: contain;
+  background-size: cover;
   width: 40vw;
   height: 100vh;
 }
