@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: rgb(220, 220, 228);
+  border: 0;
+}
+
+
+/* Mobile screen */
+@media only screen and (max-width: 400px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+  /* Tablet screen */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner img {
+      box-sizing: border-box;
+      content: url("/images/mobile_banner.jpg");  /* replaces the image src */
+      width: 100vw;
+      height: 40vh;
+  }
+}
+
+  /* Desktop screen */
+@media only screen and (min-width: 961px) {
+  body {
+    display: flex;
+  }
+  .banner img {
+      background-size: cover;
+      width: 40vw;
+      height: 100vh;
+  }
+}
