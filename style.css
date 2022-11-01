@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -10,6 +9,30 @@ body {
   border: 0;
 }
 
+
+/* Style for banner */
+.banner {
+  background: url(/images/desktop_banner.jpg);
+  background-size: contain;
+  width: 40vw;
+  height: 100vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for forms */
+.form-group {
+  display: flex;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Mobile screen */
 @media only screen and (max-width: 400px) {
