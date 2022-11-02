@@ -5,8 +5,17 @@
 }
 
 body {
-  background-color: rgb(220, 220, 228);
+  background-color: rgb(232, 232, 242);
   border: 0;
+}
+button {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: white;
+}
+button:hover {
+  background-color: black;
+  color: white;
 }
 
 
@@ -14,56 +23,65 @@ body {
 .banner {
   background: url(/images/desktop_banner.jpg);
   background-size: cover;
-  width: 40vw;
+  width: 60vw;
   height: 100vh;
 }
 
 .right {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+}
+.dummy-text {
+  font-size: 25px;
+  padding: 50px 30px;
+}
+.content {
+  background-color: white;
+  padding: 3vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 10px 30px rgb(213, 216, 219);
+  font-size: 20px;
 }
 
 /* Style for forms */
-.form-group {
-  display: flex;
+:not(button) > form {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+  column-gap: 50px;
+  margin-top: 30px;
 }
-.form-item {
+.grid-cell {
   display: flex;
   flex-direction: column;
+  font-size: 15px;
 }
+form button {
+  padding: 10px;
+}
+
+
+/* Desktop screen */
+  @media only screen and (min-width: 961px) {
+    body {
+      display: flex;
+    }
+  }
+
+/* Tablet screen */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 /* Mobile screen */
 @media only screen and (max-width: 400px) {
   body {
     display: flex;
     flex-direction: column;
-  }
-}
-
-  /* Tablet screen */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-  .banner img {
-      box-sizing: border-box;
-      content: url("/images/mobile_banner.jpg");  /* replaces the image src */
-      width: 100vw;
-      height: 40vh;
-  }
-}
-
-  /* Desktop screen */
-@media only screen and (min-width: 961px) {
-  body {
-    display: flex;
-  }
-  .banner img {
-      background-size: cover;
-      width: 40vw;
-      height: 100vh;
   }
 }
