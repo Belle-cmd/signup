@@ -10,12 +10,16 @@ body {
 }
 button {
   margin-top: 50px;
-  padding: 10px;
+  padding: 15px 30px;
   background-color: white;
+  border: 2px solid rgb(161, 161, 161);
+  color: black;
 }
 button:hover {
-  background-color: black;
-  color: white;
+  background-color: darken(white);
+  color: rgb(148, 141, 141);
+  border: 2px solid rgb(232, 232, 232);
+  transition: all 250ms linear;
 }
 
 
