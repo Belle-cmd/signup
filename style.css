@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+  font-family: 'Nanum Myeongjo', serif;
   background-color: rgb(232, 232, 242);
   border: 0;
 }
@@ -27,9 +30,30 @@ button:hover {
 .banner {
   background: url(/images/desktop_banner.jpg);
   background-size: cover;
+  position: relative;  /* for the store title */
   width: 60vw;
   height: 100vh;
 }
+.shop-name {
+  display: flex;
+  background-color: rgba(172, 172, 172, 0.844);
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+.shop-name img {
+  height: auto;
+  width: 150px;
+}
+.shop-name p {
+  font-weight: 00;
+  margin-top: 50px;
+}
+
 
 .right {
   display: flex;
