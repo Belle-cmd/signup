@@ -109,6 +109,21 @@ button:hover {
     display: flex;
     flex-direction: column;
   }
+  .banner {
+    background: url(/images/mobile_banner.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+  }
+  .shop-name {
+    padding: 10px;
+  }
+  .shop-name p {
+    margin-top: 15px;
+  }
+  .store-member {
+    margin-bottom: 30px;
+  }
 }
 
 
