@@ -10,7 +10,6 @@ Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_s
 Photo by Maria Orlova from Pexels: https://www.pexels.com/photo/fashion-store-interior-with-garments-hanging-on-racks-4940756/
 
 
-Photo by Tembela Bohle from Pexels: https://www.pexels.com/photo/grayscale-photography-of-assorted-shirts-hanged-on-clothes-rack-1884584/
-
-
 Image by <a href="https://pixabay.com/users/tuktukdesign-3181967/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1641918">Wilson Joseph</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1641918">Pixabay</a>
+
+Photo by Sam Lion: https://www.pexels.com/photo/cheerful-asian-female-customer-standing-among-hanging-clothes-in-store-and-smiling-5710153/

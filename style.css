@@ -73,7 +73,7 @@ button:hover {
 }
 
 /* Style for forms */
-:not(button) > form {
+form {
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 20px;
@@ -110,12 +110,13 @@ button:hover {
     flex-direction: column;
   }
   .banner {
-    background: url(/images/mobile_banner.jpg);
+    background: url(/images/tablet_banner.jpg);
     background-size: cover;
     width: 100vw;
     height: 500px;
   }
   .shop-name {
+    top: 250px;
     padding: 10px;
   }
   .shop-name p {
@@ -132,5 +133,33 @@ button:hover {
   body {
     display: flex;
     flex-direction: column;
+  }
+  .banner {
+    background: url(/images/mobile_banner.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+  }
+  .shop-name {
+    display: flex;
+    align-items: center;
+  }
+  .shop-name p {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .shop-name img {
+    margin-right: 10px;
+    width: auto;
+    height: 50px;
+  }
+  .dummy-text {
+    padding-bottom: 0;
+  }
+  form {
+    grid-template-columns: auto;
+  }
+  .store-member {
+    margin-bottom: 30px;
   }
 }
