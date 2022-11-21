@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Nanum Myeongjo', serif;
-  background-color: rgb(232, 232, 242);
+  background-color: rgb(250, 241, 231);
   border: 0;
 }
 button {
@@ -37,22 +37,23 @@ button:hover {
 }
 .shop-name {
   display: flex;
-  background-color: rgba(172, 172, 172, 0.844);
+  background-color: rgba(247, 237, 191, 0.734);
   position: absolute;
-  top: 150px;
+  top: 10%;
   width: 100%;
-  font-size: 50px;
+  height: 90px;
   text-align: center;
   justify-content: center;
   padding: 20px;
 }
 .shop-name img {
   height: auto;
-  width: 150px;
+  width: 83px;
+  margin-right: 10px;
 }
 .shop-name p {
-  font-weight: 00;
-  margin-top: 50px;
+  font-size: 60px;
+  font-weight: 500;
 }
 
 
@@ -67,9 +68,8 @@ button:hover {
 .content {
   background-color: white;
   padding: 3vw;
-  margin-top: 30px;
   margin-bottom: 40px;
-  box-shadow: 0 10px 30px rgb(213, 216, 219);
+  box-shadow: 0 10px 30px rgb(238, 215, 174);
   font-size: 20px;
 }
 
