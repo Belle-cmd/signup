@@ -23,10 +23,10 @@
         </p>
         <div class="content">
             <p>Lorem ipsum dolor sit amet!</p>
-            <form action="" method="get">
+            <form action="" method="get" id="form-content">
                 <div class="grid-cell">
                     <label for="firstname">First Name</label>
-                    <input type="text" name="firstname">
+                    <input type="text" name="firstname" required>
                 </div>
                 <div class="grid-cell">
                     <label for="lastname">Last Name</label>
@@ -34,22 +34,22 @@
                 </div>
                 <div class="grid-cell">
                     <label for="phone-number">Phone Number</label>
-                    <input type="number" name="phone-number">
+                    <input type="tel" name="phone-number">
                 </div>
                 <div class="grid-cell">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="">
+                    <input type="text" name="email" id="" required>
                 </div>
                 <div class="grid-cell">
                     <label for="password">Password</label>
-                    <input type="text" name="password">
+                    <input type="text" name="password" required>
                 </div>
                 <div class="grid-cell">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="number" id="">
+                    <input type="text" id="" required>
                 </div>
+                <button type="submit" class="form-submit">Create Account</button>
             </form>
-            <button type="submit" class="form-submit">Create Account</button>
         </div>
         <div class="store-member">
             <p>Already have an account?</p>

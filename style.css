@@ -12,6 +12,7 @@ body {
   border: 0;
 }
 button {
+  font-family: inherit;
   margin-top: 50px;
   padding: 15px 30px;
   background-color: white;
@@ -66,24 +67,34 @@ button:hover {
 .content {
   background-color: white;
   padding: 3vw;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 40px;
   box-shadow: 0 10px 30px rgb(213, 216, 219);
   font-size: 20px;
 }
 
 /* Style for forms */
-form {
+form  {
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 20px;
   column-gap: 50px;
   margin-top: 30px;
 }
-.grid-cell {
+form > div:not(button) {
   display: flex;
   flex-direction: column;
   font-size: 15px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+  background-color: #FFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
 }
 
 
@@ -116,7 +127,7 @@ form {
     height: 500px;
   }
   .shop-name {
-    top: 250px;
+    top: 300px;
     padding: 10px;
   }
   .shop-name p {
