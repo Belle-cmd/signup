@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Nanum Myeongjo', serif;
-  background-color: rgb(250, 241, 231);
+  background-color: #CCD5AE;
   border: 0;
 }
 button {
@@ -37,9 +37,9 @@ button:hover {
 }
 .shop-name {
   display: flex;
-  background-color: rgba(247, 237, 191, 0.734);
+  background-color: #98ae7ec8;
   position: absolute;
-  top: 10%;
+  top: 45%;
   width: 100%;
   height: 90px;
   text-align: center;
@@ -54,6 +54,8 @@ button:hover {
 .shop-name p {
   font-size: 60px;
   font-weight: 500;
+  margin-top: -5px;
+  margin-bottom: 10px;
 }
 
 
@@ -69,22 +71,25 @@ button:hover {
   background-color: white;
   padding: 3vw;
   margin-bottom: 40px;
-  box-shadow: 0 10px 30px rgb(238, 215, 174);
+  box-shadow: 0 10px 30px #8b956b;
   font-size: 20px;
 }
 
 /* Style for forms */
-form  {
+form {
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 20px;
   column-gap: 50px;
   margin-top: 30px;
 }
-form > div:not(button) {
+form > div {
   display: flex;
   flex-direction: column;
   font-size: 15px;
+}
+form button {
+  width: 200px;  /** submit button is still a grid item */
 }
 form input[type="text"],
 form input[type="email"],
@@ -93,7 +98,7 @@ form input[type="tel"] {
   border: 1px solid #D6D9DC;
   border-radius: 3px;
   width: 100%;
-  padding: 7px;
+  padding: 5px;
   font-size: 14px;
 }
 
@@ -132,6 +137,7 @@ form input[type="tel"] {
   }
   .shop-name p {
     margin-top: 15px;
+    margin-top: 1px;
   }
   .store-member {
     margin-bottom: 30px;
@@ -164,13 +170,14 @@ form input[type="tel"] {
     width: auto;
     height: 50px;
   }
-  .dummy-text {
-    padding-bottom: 0;
-  }
   form {
     grid-template-columns: auto;
   }
   .store-member {
     margin-bottom: 30px;
+  }
+  form {
+    display: grid;
+    grid-template-columns: auto;
   }
 }
