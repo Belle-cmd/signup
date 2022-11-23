@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 
 * {
   margin: 0;
@@ -7,23 +7,29 @@
 }
 
 body {
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #CCD5AE;
   border: 0;
+  font-weight: 400;
 }
 button {
   font-family: inherit;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 15px 30px;
   background-color: white;
-  border: 2px solid rgb(161, 161, 161);
+  border: 3px solid #D07821;
   color: black;
 }
 button:hover {
   background-color: darken(white);
   color: rgb(148, 141, 141);
-  border: 2px solid rgb(232, 232, 232);
+  border: 3px solid rgb(232, 232, 232);
   transition: all 250ms linear;
+}
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #D07821;
 }
 
 
@@ -37,24 +43,24 @@ button:hover {
 }
 .shop-name {
   display: flex;
-  background-color: #98ae7ec8;
+  background-color: #faedcdcd;
   position: absolute;
   top: 45%;
   width: 100%;
-  height: 90px;
+  height: 100px;
   text-align: center;
   justify-content: center;
   padding: 20px;
 }
 .shop-name img {
   height: auto;
-  width: 83px;
+  width: 80px;
   margin-right: 10px;
 }
 .shop-name p {
-  font-size: 60px;
-  font-weight: 500;
-  margin-top: -5px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 2px;
   margin-bottom: 10px;
 }
 
@@ -64,11 +70,11 @@ button:hover {
   flex-direction: column;
 }
 .dummy-text {
-  font-size: 25px;
-  padding: 50px 30px;
+  font-size: 20px;
+  padding: 50px 40px;
 }
 .content {
-  background-color: white;
+  background-color: #fefae0;
   padding: 3vw;
   margin-bottom: 40px;
   box-shadow: 0 10px 30px #8b956b;
@@ -89,13 +95,17 @@ form > div {
   font-size: 15px;
 }
 form button {
-  width: 200px;  /** submit button is still a grid item */
+  width: 180px;  /** submit button is still a grid item */
+  color: #D07821;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #fefae0;
 }
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"] {
-  background-color: #FFF;
-  border: 1px solid #D6D9DC;
+  background-color: #fefae0;
+  border: 1px solid #4b0c06;
   border-radius: 3px;
   width: 100%;
   padding: 5px;
@@ -132,12 +142,12 @@ form input[type="tel"] {
     height: 500px;
   }
   .shop-name {
-    top: 300px;
+    top: 400px;
     padding: 10px;
   }
   .shop-name p {
     margin-top: 15px;
-    margin-top: 1px;
+    margin-top: 15px;
   }
   .store-member {
     margin-bottom: 30px;
@@ -146,7 +156,7 @@ form input[type="tel"] {
 
 
 /* Mobile screen */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   body {
     display: flex;
     flex-direction: column;
@@ -158,11 +168,12 @@ form input[type="tel"] {
     height: 500px;
   }
   .shop-name {
+    top: 200px;
     display: flex;
     align-items: center;
   }
   .shop-name p {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 40px;
   }
   .shop-name img {
