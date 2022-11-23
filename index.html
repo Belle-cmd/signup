@@ -34,25 +34,25 @@
                 </div>
                 <div class="grid-cell">
                     <label for="lastname">Last Name</label>
-                    <input type="text" name="lastname">
+                    <input type="text" name="lastname" required>
                 </div>
                 <div class="grid-cell">
                     <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number">
+                    <input type="tel" name="phone-number" id="phone-number" pattern="[A-Za-z]* -/*(/*)/*">
                 </div>
                 <div class="grid-cell">
                     <label for="email">Email</label>
-                    <input type="text" name="email" id="" required>
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div class="grid-cell">
                     <label for="password">Password</label>
-                    <input type="text" name="password" required>
+                    <input type="password" name="password" id="password" required>
                 </div>
                 <div class="grid-cell">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="text" id="" required>
+                    <input type="password" id="confirm-password" required>
                 </div>
-                <button type="submit" class="form-submit">Create Account</button>
+                <button type="submit" class="form-submit" id="btn-submit">Create Account</button>
             </form>
         </div>
         <div class="store-member">

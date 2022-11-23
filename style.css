@@ -103,13 +103,27 @@ form button {
 }
 form input[type="text"],
 form input[type="email"],
-form input[type="tel"] {
+form input[type="tel"],
+form input[type="password"] {
   background-color: #fefae0;
   border: 1px solid #4b0c06;
   border-radius: 3px;
   width: 100%;
   padding: 5px;
   font-size: 14px;
+}
+input:invalid:required {
+  /* when input is required and is currently invalid */
+  background-color: #fbcac6;
+  border: 1px solid #ec4444;
+}
+input:valid:required {
+  background-color: #ceeec3;
+  border: 1px solid #07712a;
+}
+.warning-msg {
+  color: red;
+  font-size: 11px;
 }
 
 
