@@ -31,6 +31,9 @@ a {
   font-weight: 400;
   color: #D07821;
 }
+span {
+  color: red;
+}
 
 
 /* Style for banner */
@@ -68,9 +71,9 @@ a {
 .right {
   display: flex;
   flex-direction: column;
+  font-size: 18px;
 }
 .dummy-text {
-  font-size: 20px;
   padding: 50px 40px;
 }
 .content {
@@ -88,6 +91,7 @@ form {
   row-gap: 20px;
   column-gap: 50px;
   margin-top: 30px;
+
 }
 form > div {
   display: flex;

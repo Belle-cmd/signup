@@ -29,11 +29,11 @@
             <p>Lorem ipsum dolor sit amet!</p>
             <form action="" method="get" id="form-content">
                 <div class="grid-cell">
-                    <label for="firstname">First Name</label>
+                    <label for="firstname">First Name <span>*</span></label>
                     <input type="text" name="firstname" required>
                 </div>
                 <div class="grid-cell">
-                    <label for="lastname">Last Name</label>
+                    <label for="lastname">Last Name <span>*</span></label>
                     <input type="text" name="lastname" required>
                 </div>
                 <div class="grid-cell">
@@ -41,15 +41,15 @@
                     <input type="tel" name="phone-number" id="phone-number" pattern="[A-Za-z]* -/*(/*)/*">
                 </div>
                 <div class="grid-cell">
-                    <label for="email">Email</label>
+                    <label for="email">Email <span>*</span></label>
                     <input type="email" name="email" id="email" required>
                 </div>
                 <div class="grid-cell">
-                    <label for="password">Password</label>
+                    <label for="password">Password <span>*</span></label>
                     <input type="password" name="password" id="password" required>
                 </div>
                 <div class="grid-cell">
-                    <label for="confirm-password">Confirm Password</label>
+                    <label for="confirm-password">Confirm Password <span>*</span></label>
                     <input type="password" id="confirm-password" required>
                 </div>
                 <button type="submit" class="form-submit" id="btn-submit">Create Account</button>
