@@ -19,7 +19,11 @@ Live preview: [link](https://belle-cmd.github.io/signup/)
 
 ## Sources:
 Company logo photo by [Clker-Free-Vector-Images](https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=311732) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=311732)
-Desktop banner photo by Ksenia Chernaya: https://www.pexels.com/photo/assorted-apparel-and-accessories-for-dress-sewing-in-tailor-atelier-3965557/
+
+Desktop banner photo by Ksenia [Chernaya](https://www.pexels.com/photo/assorted-apparel-and-accessories-for-dress-sewing-in-tailor-atelier-3965557/)
+
 Site Icon photo by [Wilson Joseph](https://pixabay.com/users/tuktukdesign-3181967/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1641918) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1641918)
+
 Tablet banner photo by [Sam Lion](https://www.pexels.com/photo/cheerful-asian-female-customer-standing-among-hanging-clothes-in-store-and-smiling-5710153/) 
+
 Mobile banner photo by [MART  PRODUCTION](https://www.pexels.com/photo/hanged-denim-clothing-7679722/)
