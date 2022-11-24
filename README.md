@@ -14,6 +14,7 @@ Live preview: [link](https://belle-cmd.github.io/signup/)
 - Colour theory and values (art concepts)
 - Client-side validation using HTML5, CSS3, JavaScript combined
 - Tested in different browsers
+- Media queries to make site responsive
 
 
 ## Sources:
