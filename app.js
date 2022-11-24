@@ -1,12 +1,15 @@
+"use strict";
+
 const form = document.getElementById("form-content");
+const firstName = document.getElementById("first-name");
 const phoneNum = document.getElementById("phone-number");
 const email = document.getElementById("email");
-const password = document.getElementById("password")
+const password = document.getElementById("password");
 const passwordConfirm = document.getElementById("confirm-password");
 
 
 phoneNum.addEventListener("input", (event) => {
-    if (phoneNum.validity.patternMismatch) {
+    if (phoneNum.validity.typeMismatch) {
         // pattern indicates no characters, dash, brackets, space
         phoneNum.setCustomValidity("Letters, dash '-', spaces, brackets '()' are not accepted.");
         phoneNum.reportValidity();
@@ -40,4 +43,3 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();  // stop form submission
     alert("Dummy submission. No actual data is sent.");
 });
-

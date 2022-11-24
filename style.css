@@ -116,18 +116,26 @@ form input[type="password"] {
   padding: 5px;
   font-size: 14px;
 }
-input:invalid:required {
+form input[type="text"]:placeholder-shown,
+form input[type="email"]:placeholder-shown,
+form input[type="tel"]:placeholder-shown,
+form input[type="password"]:placeholder-shown {
+  /* This style is applied when user can see the placeholder text */
+  background-color: #fefae0;
+  border: 1px solid #4b0c06;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+}
+input:invalid:required, input[type="tel"]:invalid {
   /* when input is required and is currently invalid */
   background-color: #fbcac6;
   border: 1px solid #ec4444;
 }
-input:valid:required {
+input:valid:required, input[type="tel"]:valid {
   background-color: #ceeec3;
   border: 1px solid #07712a;
-}
-.warning-msg {
-  color: red;
-  font-size: 11px;
 }
 
 

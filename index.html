@@ -30,27 +30,27 @@
             <form action="" method="get" id="form-content">
                 <div class="grid-cell">
                     <label for="firstname">First Name <span>*</span></label>
-                    <input type="text" name="firstname" required>
+                    <input type="text" name="firstname" id="first-name" placeholder="Jane" required>
                 </div>
                 <div class="grid-cell">
                     <label for="lastname">Last Name <span>*</span></label>
-                    <input type="text" name="lastname" required>
+                    <input type="text" name="lastname" placeholder="Doe" required>
                 </div>
                 <div class="grid-cell">
                     <label for="phone-number">Phone Number</label>
-                    <input type="tel" name="phone-number" id="phone-number" pattern="[A-Za-z]* -/*(/*)/*">
+                    <input type="tel" name="phone-number" id="phone-number" pattern="\d*" placeholder="###########">
                 </div>
                 <div class="grid-cell">
                     <label for="email">Email <span>*</span></label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" placeholder="username@domain.com" required>
                 </div>
                 <div class="grid-cell">
                     <label for="password">Password <span>*</span></label>
-                    <input type="password" name="password" id="password" required>
+                    <input type="password" name="password" id="password" placeholder="new password" required>
                 </div>
                 <div class="grid-cell">
                     <label for="confirm-password">Confirm Password <span>*</span></label>
-                    <input type="password" id="confirm-password" required>
+                    <input type="password" id="confirm-password" placeholder="retype new password" required>
                 </div>
                 <button type="submit" class="form-submit" id="btn-submit">Create Account</button>
             </form>
