@@ -38,7 +38,7 @@ span {
 
 /* Style for banner */
 .banner {
-  background: url(/images/desktop_banner.jpg);
+  background: url(images/desktop_banner.jpg);
   background-size: cover;
   position: relative;  /* for the store title */
   width: 60vw;
@@ -81,7 +81,6 @@ span {
   padding: 3vw;
   margin-bottom: 40px;
   box-shadow: 0 10px 30px #8b956b;
-  font-size: 20px;
 }
 
 /* Style for forms */
@@ -144,6 +143,7 @@ input:valid:required, input[type="tel"]:valid {
   display: flex;
   margin-left: 50px;
   gap: 10px;
+  font-size: 15px;
 }
 
 
@@ -162,7 +162,7 @@ input:valid:required, input[type="tel"]:valid {
     flex-direction: column;
   }
   .banner {
-    background: url(/images/tablet_banner.jpg);
+    background: url(images/tablet_banner.jpg);
     background-size: cover;
     width: 100vw;
     height: 500px;
@@ -188,7 +188,7 @@ input:valid:required, input[type="tel"]:valid {
     flex-direction: column;
   }
   .banner {
-    background: url(/images/mobile_banner.jpg);
+    background: url(images/mobile_banner.jpg);
     background-size: cover;
     width: 100vw;
     height: 500px;
