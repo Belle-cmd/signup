@@ -1,5 +1,5 @@
 # signup
-This responsive website shows a sign up page without sending any inputted data. It changes display depending on which device the site is being viewed upon. It also validates the form at the client-side. It is implemented using HTML5, CSS3, Vanilla JavaScript.
+This responsive website shows a sign up page without sending any inputted data. It changes display depending on which device the site is being viewed upon - for desktop, tablet, and mobile. It also validates the form at the client-side. It is implemented using HTML5, CSS3, Vanilla JavaScript.
 
 Live preview: [link](https://belle-cmd.github.io/signup/)
 
