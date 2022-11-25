@@ -5,9 +5,6 @@ Live preview: [link](https://belle-cmd.github.io/signup/)
 
 
 ## Concepts and skills I applied in this project:
-- JavaScript
-- CSS3
-- HTML5
 - Git commit message conventions
 - Regular expressions
 - DOM element manipulation
@@ -16,9 +13,10 @@ Live preview: [link](https://belle-cmd.github.io/signup/)
 - Tested in different browsers
 - Media queries to make site responsive
 - Grid and flexbox layout combined
-- Other CSS units
+- Other CSS units (vw, vh, etc.)
 - Google font API
 - Advanced selectors
+- Custom properties
 
 
 ## Sources:
