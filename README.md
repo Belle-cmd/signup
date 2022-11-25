@@ -15,6 +15,10 @@ Live preview: [link](https://belle-cmd.github.io/signup/)
 - Client-side validation using HTML5, CSS3, JavaScript combined
 - Tested in different browsers
 - Media queries to make site responsive
+- Grid and flexbox layout combined
+- Other CSS units
+- Google font API
+- Advanced selectors
 
 
 ## Sources:
